@@ -4,8 +4,6 @@ import { setTitle } from '@/utils/index';
 import { useUserStore } from '@/stores/index';
 // import { withListHandle } from './map';
 
-import { HelpRoute } from "@/router/index";
-
 const loginPath = '/login';
 
 const defaultPath = '/home';
@@ -23,7 +21,6 @@ export default (router: Router) => {
         if (!userStore.member.userId) {
           const syncRoutes = await userStore.GETUSERINFO();
           syncRoutes.length && router.addRoute(syncRoutes[0]);
-          // router.addRoute(HelpRoute);
           next({ ...to, replace: true });
         } else {
           next();

@@ -35,6 +35,7 @@ export default defineStore('user', {
       this.rulePermission = getUserOk.rulePermission;
       const syncRouter = this.GENERATEROUTES(getUserOk.routerList);
       this.routerList = syncRouter;
+      console.log(this.routerList);
       return syncRouter;
     },
 

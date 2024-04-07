@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <a-button>按钮</a-button>
-    <div class="text">哈哈哈</div>
-  </div>
+  <div>aboutList</div>
 </template>
 
 <script setup lang="ts"></script>

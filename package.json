@@ -16,6 +16,7 @@
     "fix:prettier": "prettier --write  \"src/**/*.{js,jsx,ts,tsx,vue,css,less,html,json,md}\""
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
     "@types/store": "^2.0.5",
     "ant-design-vue": "4.x",
     "axios": "^1.6.8",
