@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-*.code-workapace
+*.code-workspace
 pnpm-lock.yaml
